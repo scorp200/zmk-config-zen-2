@@ -152,78 +152,78 @@
 
         default_layer {
             bindings = <
-        // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-             &kp Q         &kp W         &kp F         &kp P         &kp G             &kp J         &kp L         &kp U         &kp Y         &kp SEMI
-             &kp A         &kp R         &kp S         &kp T         &kp D             &kp H         &kp N         &kp E         &kp I         &kp O
-             &kp Z         &kp X         &kp C         &kp V         &kp B             &kp K         &kp M         &kp COMMA     &kp DOT       &kp FSLH
-        // ╰─────────────┴─────────────╮                                                                                       ╭─────────────┴─────────────╯
-                                         &none         &mo_nav       &kp SPACE         &mo_upp       &mo_sym       &none
-        //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
+        // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
+             &none         &kp Q         &kp W         &kp F         &kp P         &kp G             &kp J         &kp L         &kp U         &kp Y         &kp SEMI      &none
+             &none         &kp A         &kp R         &kp S         &kp T         &kp D             &kp H         &kp N         &kp E         &kp I         &kp O         &none
+             &none         &kp Z         &kp X         &kp C         &kp V         &kp B             &kp K         &kp M         &kp COMMA     &kp DOT       &kp FSLH      &none
+        // ╰─────────────┴─────────────┴─────────────╮                                                                                       ╭─────────────┴─────────────┴─────────────╯
+                                                       &none         &mo_nav       &kp SPACE         &mo_upp       &mo_sym       &none
+        //                                           ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
             >;
         };
 
         nav_layer {
             label = "Nav";
             bindings = <
-        // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-             &trans        &trans        &trans        &trans        &trans            &kp PG_UP     &trans        &trans        &trans        &trans
-             &sk LGUI      &sk LALT      &sk LCTRL     &sk LSHFT     &trans            &kp PG_DN     &kp LARW      &kp DARW      &kp UARW      &kp RARW
-             &kp Z         &kp LC(X)     &kp LC(C)     &kp LC(V)     &trans            &trans        &trans        &trans        &trans        &trans
-        // ╰─────────────┴─────────────╮                                                                                       ╭─────────────┴─────────────╯
-                                         &trans        &trans        &trans            &kp BSPC      &kp DEL       &trans
-        //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
+        // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
+             &none         &trans        &trans        &trans        &trans        &trans            &kp PG_UP     &trans        &trans        &trans        &trans        &none
+             &none         &sk LGUI      &sk LALT      &sk LCTRL     &sk LSHFT     &trans            &kp PG_DN     &kp LARW      &kp DARW      &kp UARW      &kp RARW      &none
+             &none         &kp Z         &kp LC(X)     &kp LC(C)     &kp LC(V)     &trans            &trans        &trans        &trans        &trans        &trans        &none
+        // ╰─────────────┴─────────────┴─────────────╮                                                                                       ╭─────────────┴─────────────┴─────────────╯
+                                                       &trans        &trans        &trans            &kp BSPC      &kp DEL       &trans
+        //                                           ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
             >;
         };
 
         upper_layer {
             label = "Upp";
             bindings = <
-        // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-             &kp LS(Q)     &kp LS(W)     &kp LS(F)     &kp LS(P)     &kp LS(G)         &kp LS(J)     &kp LS(L)     &kp LS(U)     &kp LS(Y)     &kp LS(SEMI)
-             &kp LS(A)     &kp LS(R)     &kp LS(S)     &kp LS(T)     &kp LS(D)         &kp LS(H)     &kp LS(N)     &kp LS(E)     &kp LS(I)     &kp LS(O)
-             &kp LS(Z)     &kp LS(X)     &kp LS(C)     &kp LS(V)     &kp LS(B)         &kp LS(K)     &kp LS(M)     &kp LT        &kp GT        &kp LS(FSLH)
-        // ╰─────────────┴─────────────╮                                                                                       ╭─────────────┴─────────────╯
-                                                       &trans        &kp LS(SPACE)     &trans        &trans
-        //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
+        // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
+             &none         &kp LS(Q)     &kp LS(W)     &kp LS(F)     &kp LS(P)     &kp LS(G)         &kp LS(J)     &kp LS(L)     &kp LS(U)     &kp LS(Y)     &kp LS(SEMI)  &none
+             &none         &kp LS(A)     &kp LS(R)     &kp LS(S)     &kp LS(T)     &kp LS(D)         &kp LS(H)     &kp LS(N)     &kp LS(E)     &kp LS(I)     &kp LS(O)     &none
+             &none         &kp LS(Z)     &kp LS(X)     &kp LS(C)     &kp LS(V)     &kp LS(B)         &kp LS(K)     &kp LS(M)     &kp LT        &kp GT        &kp LS(FSLH)  &none
+        // ╰─────────────┴─────────────┴─────────────╮                                                                                       ╭─────────────┴─────────────┴─────────────╯
+                                                       &trans        &trans        &kp LS(SPACE)     &trans        &trans        &trans
+        //                                           ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
             >;
         };
 
         sym_layer {
             label = "Sym";
             bindings = <
-        // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-             &kp EXCL      &kp AT        &kp HASH      &kp DLLR      &kp PRCNT         &neq          &leq          &eq           &geq          &none
-             &kp COLON     &kp CARET     &kp AMPS      &kp STAR      &kp PLUS          &arrwf        &none         &none         &none         &kp PIPE
-             &kp SQT       &kp GRAVE     &kp TILDE     &none         &kp EQUAL         &none         &none         &none         &none         &kp DQT
-        // ╰─────────────┴─────────────╮                                                                                       ╭─────────────┴─────────────╯
-                                         &none         &kp UNDER     &kp MINUS         &trans        &trans        &none
-        //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
+        // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
+             &none         &kp EXCL      &kp AT        &kp HASH      &kp DLLR      &kp PRCNT         &neq          &leq          &eq           &geq          &none         &none
+             &none         &kp COLON     &kp CARET     &kp AMPS      &kp STAR      &kp PLUS          &arrwf        &none         &none         &none         &kp PIPE      &none
+             &none         &kp SQT       &kp GRAVE     &kp TILDE     &kp BSLH      &kp EQUAL         &none         &none         &none         &none         &kp DQT       &none
+        // ╰─────────────┴─────────────┴─────────────╮                                                                                       ╭─────────────┴─────────────┴─────────────╯
+                                                       &none         &kp UNDER     &kp MINUS         &trans        &trans        &none
+        //                                           ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
             >;
         };
         
         num_layer {
             label = "Num";
             bindings = <
-        // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-             &none         &kp N7        &kp N8        &kp N9        &none             &none         &none         &none         &none         &none
-             &none         &kp N1        &kp N2        &kp N3        &none             &none         &none         &none         &none         &none
-             &none         &kp N4        &kp N5        &kp N6        &none             &none         &none         &kp COMMA     &kp DOT       &none
-        // ╰─────────────┴─────────────╮                                                                                       ╭─────────────┴─────────────╯
-                                         &none         &kp N0        &kp SPACE         &none         &none         &none
-        //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
+        // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
+             &none         &none         &kp N7        &kp N8        &kp N9        &none             &none         &none         &none         &none         &none         &none
+             &none         &none         &kp N1        &kp N2        &kp N3        &none             &none         &none         &none         &none         &none         &none
+             &none         &none         &kp N4        &kp N5        &kp N6        &none             &none         &none         &kp COMMA     &kp DOT       &none         &none
+        // ╰─────────────┴─────────────┴─────────────╮                                                                                       ╭─────────────┴─────────────┴─────────────╯
+                                                       &none         &kp N0        &kp SPACE         &none         &none         &none
+        //                                           ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
             >;
         };
         
         sys_layer {
             label = "Sys";
             bindings = <
-        // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
-             &none         &OTGL         &none         &none         &none             &none         &kp F9        &kp F10       &kp F11       &kp F12
-             &none         &bt B0        &bt B1        &bt B2        &none             &none         &kp F1        &kp F2        &kp F3        &kp F4 
-             &none         &bt B3        &bt B4        &none         &none             &none         &kp F5        &kp F6        &kp F7        &kp F8 
-        // ╰─────────────┴─────────────╮                                                                                       ╭─────────────┴─────────────╯
-                                         &none         &none         &none             &none         &none         &none
-        //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
+        // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
+             &none         &none         &OTGL         &none         &none         &none             &none         &kp F9        &kp F10       &kp F11       &kp F12       &none
+             &none         &none         &bt B0        &bt B1        &bt B2        &none             &none         &kp F1        &kp F2        &kp F3        &kp F4        &none
+             &none         &none         &bt B3        &bt B4        &none         &none             &none         &kp F5        &kp F6        &kp F7        &kp F8        &none
+        // ╰─────────────┴─────────────┴─────────────╮                                                                                       ╭─────────────┴─────────────┴─────────────╯
+                                                       &none         &none         &none             &none         &none         &none
+        //                                           ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
             >;
         };
     };
@@ -233,13 +233,13 @@
         _layer {
             label = "";
             bindings = <
-        // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
+        // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
                            &none         &none         &none         &none             &none         &kp F9        &kp F10       &kp F11
              &none         &none         &none         &none         &none             &none         &kp F1        &kp F2        &kp F3        &kp F4 
              &none         &none         &none         &none         &none             &none         &kp F5        &kp F6        &kp F7        &kp F8 
-        // ╰─────────────┴─────────────╮                                                                                       ╭─────────────┴─────────────╯
+        // ╰─────────────┴─────────────┴─────────────╮                                                                                       ╭─────────────┴─────────────┴─────────────╯
                                                        &none         &none             &none         &none
-        //                             ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
+        //                                           ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
             >;
         };
 */
